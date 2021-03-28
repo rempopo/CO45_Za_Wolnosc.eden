@@ -30,7 +30,7 @@ tSF_module_AirborneSupport = false;
 tSF_module_ArtillerySupport = false;
 tSF_module_POM = false;
 
-tSF_module_EditorVehicleCrew = false;
+tSF_module_EditorVehicleCrew = true;
 tSF_module_EditorUnitBehavior = false;
 tSF_module_EditorRadioSettings = false;
 

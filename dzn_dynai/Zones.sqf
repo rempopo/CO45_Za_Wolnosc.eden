@@ -4,7 +4,7 @@
 	/* Groups: */
 	,[
 		[
-			2, /* Groups quantity */
+			1, /* Groups quantity */
 			/* Units */
 			[
 				["B_Soldier_F", [], "kit_ger_motshut_sl"]
@@ -27,7 +27,7 @@
 	/* Groups: */
 	,[
 		[
-			2, /* Groups quantity */
+			1, /* Groups quantity */
 			/* Units */
 			[
 				["B_Soldier_F", [], "kit_ger_linf_lr"]
@@ -51,7 +51,7 @@
 	/* Groups: */
 	,[
 		[
-			4, /* Groups quantity */
+			2, /* Groups quantity */
 			/* Units */
 			[
 				["B_Soldier_F", [], "kit_ger_linf_lr"]
@@ -60,7 +60,7 @@
 			]
 		]
 		,[
-			2, /* Groups quantity */
+			1, /* Groups quantity */
 			/* Units */
 			[
 				["B_Soldier_F", [], "kit_ger_spah_sl"]
@@ -79,7 +79,7 @@
 	/* Groups: */
 	,[
 		[
-			2, /* Groups quantity */
+			1, /* Groups quantity */
 			/* Units */
 			[
 				["B_Soldier_F", [], "kit_ger_linf_lr"]
@@ -94,7 +94,7 @@
 			]
 		]
 		,[
-			2, /* Groups quantity */
+			1, /* Groups quantity */
 			/* Units */
 			[
 				["B_Soldier_F", [], "kit_ger_linf_st"]
@@ -126,15 +126,6 @@
 				,["B_Soldier_F", [], "kit_ger_motshut_ar"]
 			]
 		]
-		,[
-			4, /* Groups quantity */
-			/* Units */
-			[
-				["CUP_B_Boxer_HMG_GER_WDL", "Vehicle Patrol", ""]
-				,["B_Soldier_F", [0,"Driver"], "kit_ger_motshut_crew"]
-				,["B_Soldier_F", [0,"Commander"], "kit_ger_motshut_crew"]
-			]
-		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","SAFE","YELLOW","WEDGE"]
@@ -148,9 +139,9 @@
 			2, /* Groups quantity */
 			/* Units */
 			[
-				["I_soldier_F", [], "kit__pol_policeman_ak74u"]
-				,["I_soldier_F", [], "kit__pol_policeman_ak74u"]
-				,["I_soldier_F", [], "kit_pol_policeman_skorpion"]
+				["I_soldier_F", ["indoors"], "kit__pol_policeman_ak74u"]
+				,["I_soldier_F", ["indoors"], "kit__pol_policeman_ak74u"]
+				,["I_soldier_F", ["indoors"], "kit_pol_policeman_skorpion"]
 			]
 		]
 		,[

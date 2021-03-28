@@ -42,7 +42,17 @@ CREW_CONFIG_TABLE
 	,["OPFOR VC"			,[["commander"], OPFOR_CREW_CONFIG_DEFAULT]]
 	,["OPFOR GNR"			,[["gunner"], OPFOR_CREW_CONFIG_DEFAULT]]
 	,["OPFOR DRV"			,[["driver"], OPFOR_CREW_CONFIG_DEFAULT]]
-	
+	,[ 
+		"Boxer_Crew" // Config Name
+		, [ 
+			["driver", "commander"]			// Roles
+			, west				// Side
+			, 0.7				// Skill
+			, "kit_ger_motshut_crew"		// dzn_gear kit name 
+			, "full frontal"			// dzn_dynai behavior 
+			, "B_Soldier_F"		// Crew classname
+		] 
+	]
 	/*
 	Example of custom config:
 	[ 
