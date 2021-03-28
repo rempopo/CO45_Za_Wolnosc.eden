@@ -10,10 +10,17 @@
 				["B_Soldier_F", [], "kit_ger_motshut_sl"]
 				,["B_Soldier_F", [], "kit_ger_motshut_ftl"]
 				,["B_Soldier_F", [], "kit_ger_motshut_ar"]
-				,["B_Soldier_F", [], "kit_ger_motshut_ar"]
-				,["B_Soldier_F", [], "kit_ger_motshut_gr"]
 				,["B_Soldier_F", [], "kit_ger_motshut_gr"]
 				,["B_Soldier_F", [], "kit_ger_motshut_r"]
+			]
+		],
+		[
+			1, /* Groups quantity */
+			/* Units */
+			[
+				["B_Soldier_F", [], "kit_ger_motshut_ftl"]
+				,["B_Soldier_F", [], "kit_ger_motshut_ar"]
+				,["B_Soldier_F", [], "kit_ger_motshut_gr"]
 				,["B_Soldier_F", [], "kit_ger_motshut_r"]
 			]
 		]
@@ -33,12 +40,17 @@
 				["B_Soldier_F", [], "kit_ger_linf_lr"]
 				,["B_Soldier_F", [], "kit_ger_linf_lr"]
 				,["B_Soldier_F", [], "kit_ger_linf_r"]
+				,["B_Soldier_F", [], "kit_ger_linf_mg"]
+				,["B_Soldier_F", [], "kit_ger_linf_mga"]
+			]
+		],
+		[
+			2, /* Groups quantity */
+			/* Units */
+			[
+				["B_Soldier_F", [], "kit_ger_linf_lr"]
 				,["B_Soldier_F", [], "kit_ger_linf_r"]
-				,["B_Soldier_F", [], "kit_ger_linf_mg"]
-				,["B_Soldier_F", [], "kit_ger_linf_mga"]
 				,["B_Soldier_F", [], "kit_ger_linf_lr"]
-				,["B_Soldier_F", [], "kit_ger_linf_mg"]
-				,["B_Soldier_F", [], "kit_ger_linf_mga"]
 			]
 		]
 	]
@@ -88,9 +100,6 @@
 				,["B_Soldier_F", [], "kit_ger_linf_r"]
 				,["B_Soldier_F", [], "kit_ger_linf_mg"]
 				,["B_Soldier_F", [], "kit_ger_linf_mga"]
-				,["B_Soldier_F", [], "kit_ger_linf_lr"]
-				,["B_Soldier_F", [], "kit_ger_linf_mg"]
-				,["B_Soldier_F", [], "kit_ger_linf_mga"]
 			]
 		]
 		,[
@@ -100,6 +109,14 @@
 				["B_Soldier_F", [], "kit_ger_linf_st"]
 				,["B_Soldier_F", [], "kit_ger_linf_st"]
 				,["B_Soldier_F", [], "kit_ger_linf_st"]
+			]
+		]
+		,[
+			1,
+			[
+				["B_Soldier_F", [], "kit_ger_linf_lr"]
+				,["B_Soldier_F", [], "kit_ger_linf_mg"]
+				,["B_Soldier_F", [], "kit_ger_linf_mga"]
 			]
 		]
 	]
@@ -120,16 +137,30 @@
 				,["B_Soldier_F", [], "kit_ger_motshut_gr"]
 				,["B_Soldier_F", [], "kit_ger_motshut_r"]
 				,["B_Soldier_F", [], "kit_ger_motshut_ar"]
-				,["B_Soldier_F", [], "kit_ger_motshut_ftl"]
+			]
+		],
+		[
+			3,
+			[
+				["B_Soldier_F", [], "kit_ger_motshut_ftl"]
 				,["B_Soldier_F", [], "kit_ger_motshut_gr"]
 				,["B_Soldier_F", [], "kit_ger_motshut_r"]
 				,["B_Soldier_F", [], "kit_ger_motshut_ar"]
+			]
+		],
+		[
+			2,
+			[
+				["B_Soldier_F", ["indoors"], "kit_ger_motshut_ftl"]
+				,["B_Soldier_F", ["indoors"], "kit_ger_motshut_gr"]
+				,["B_Soldier_F", ["indoors"], "kit_ger_motshut_r"]
+				,["B_Soldier_F", ["indoors"], "kit_ger_motshut_ar"]
 			]
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","SAFE","YELLOW","WEDGE"]
-	]
+]
 , [
 	"Green_Police" /* Zone Name */
 	,"RESISTANCE",true, /* Side, is Active */ [],[]
