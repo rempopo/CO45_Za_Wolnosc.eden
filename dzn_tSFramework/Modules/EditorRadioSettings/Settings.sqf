@@ -23,7 +23,7 @@ tSF_ERS_OPFOR_LRRadioType		= "TFAR_mr3000";
 tSF_ERS_OPFOR_LRRange			= 30000; // meters
 tSF_ERS_OPFOR_LRIsolated		= 0.5;
  
-tSF_ERS_INDEP_LRRadioType		= "TFAR_anprc155";
+tSF_ERS_INDEP_LRRadioType		= "tf_rf7800str_1";
 tSF_ERS_INDEP_LRRange			= 30000; // meters
 tSF_ERS_INDEP_LRIsolated		= 0.5;
  

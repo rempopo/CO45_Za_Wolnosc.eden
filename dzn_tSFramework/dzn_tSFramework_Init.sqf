@@ -27,7 +27,7 @@ tSF_module_ACEActions = true;
 
 tSF_module_Authorization = true;
 tSF_module_AirborneSupport = false;
-tSF_module_ArtillerySupport = true;
+tSF_module_ArtillerySupport = false;
 tSF_module_POM = false;
 
 tSF_module_EditorVehicleCrew = false;

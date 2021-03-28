@@ -389,7 +389,7 @@ cargo_kit_akms_box = [
 
 cargo_kit_army_box = [
 	[["CUP_arifle_RPK74M", 5],["cwr3_launch_rpg75_loaded",2]],
-	[["hlc_60Rnd_545x39_b_rpk",10]],
+	[["hlc_60Rnd_545x39_b_rpk",20]],
 	[["CUP_H_SLA_Helmet_OD_worn",10]],
 	[]
 ];

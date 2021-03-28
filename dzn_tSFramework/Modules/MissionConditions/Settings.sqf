@@ -48,7 +48,8 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", { 
-[WinTrigger, "west", "", "< 3"] call dzn_fnc_ccUnits
-}, "All objectives done" ];
+MissionCondition1 = [ 
+ "WIN", { [WinTrigger, "west", "", "< 3"] call dzn_fnc_ccUnits && !isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } }, 
+ "All objectives done"
+];
 MissionCondition2 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];

@@ -49,7 +49,7 @@ dzn_dynai_activatedZones = [];
 dzn_dynai_activeGroups = [];
 dzn_dynai_zoneProperties = [
 	#include "Zones.sqf"
-];
+] ;
 
 call compile preProcessFileLineNumbers "dzn_dynai\fn\dzn_dynai_dynaiFunctions.sqf";
 call compile preProcessFileLineNumbers "dzn_dynai\fn\dzn_dynai_controlFunctions.sqf";

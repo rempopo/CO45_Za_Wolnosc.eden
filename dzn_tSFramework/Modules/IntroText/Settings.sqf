@@ -7,7 +7,7 @@ GVAR(initCondition) = { true };  // Overall condition of module init
 
 
 // 1st line -- Date in format DD/MM/YYYY. Use "%1/%2/%3" to use MissionDate.
-GVAR(LineText1)	= "31/10/2017";
+GVAR(LineText1)	= "%1/%2/%3";
 GVAR(LineStyle1) = "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 2nd line
