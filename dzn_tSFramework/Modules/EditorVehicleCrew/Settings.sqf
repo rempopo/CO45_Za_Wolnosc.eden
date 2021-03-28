@@ -16,7 +16,7 @@ tSF_EVC_OPFOR_HoldType		= "full frontal";
  *	For all synched vehicles -- crew will be spawned.
  *
  *	List of Configs in format
- *		[ 
+ *		[
  *			@ConfigName		- string, e.g. "Ins DSHK Gunner"
  *			, [
  *				@Roles 		- e.g. ["driver", "gunner", "commander","cargo"] or "gunner"
@@ -42,30 +42,29 @@ CREW_CONFIG_TABLE
 	,["OPFOR VC"			,[["commander"], OPFOR_CREW_CONFIG_DEFAULT]]
 	,["OPFOR GNR"			,[["gunner"], OPFOR_CREW_CONFIG_DEFAULT]]
 	,["OPFOR DRV"			,[["driver"], OPFOR_CREW_CONFIG_DEFAULT]]
-	,[ 
+	,[
 		"Boxer_Crew" // Config Name
-		, [ 
-			["driver", "commander"]			// Roles
-			, west				// Side
-			, 0.7				// Skill
-			, "kit_ger_motshut_crew"		// dzn_gear kit name 
-			, "full frontal"			// dzn_dynai behavior 
-			, "B_Soldier_F"		// Crew classname
-		] 
+		, [
+			["commander","gunner"]
+			, west
+			, 0.7
+			, "kit_ger_motshut_crew"
+			, "full frontal"
+			, "B_Soldier_F"
+		]
 	]
 	/*
 	Example of custom config:
-	[ 
+	[
 		"NATO MRAP Crew" // Config Name
-		, [ 
+		, [
 			"driver"			// Roles
 			, west				// Side
 			, 0.7				// Skill
-			, "kit_nato_r"		// dzn_gear kit name 
-			, "frontal"			// dzn_dynai behavior 
+			, "kit_nato_r"		// dzn_gear kit name
+			, "frontal"			// dzn_dynai behavior
 			, "B_Soldier_F"		// Crew classname
-		] 
+		]
 	]
 	*/
 CREW_CONFIG_TABLE_END
-
